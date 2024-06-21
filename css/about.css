@@ -1,3 +1,141 @@
 #about {
     margin-top: 60px;
 }
+
+.about-left {
+    width: 33%;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-right {
+    flex: 1;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    object-fit: cover;
+    border: 2px solid rgb(252, 188, 29);
+    box-shadow: 5px 5px 10px grey;
+}
+
+.profile-name {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 80%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgb(33, 37, 41);
+}
+
+.about-left table {
+    border-top: 2px solid lightgrey;
+    width: 80%;
+}
+
+.td-rowname {
+    font-weight: bold;
+}
+
+.td-rowval {
+    text-align: right;
+}
+
+.tr-info {
+    height: 40px;
+}
+
+.social-links {
+    padding-top: 15px;
+    width: 80%;
+    border-top: 2px solid lightgrey;
+    display: flex;
+    justify-content: center;
+}
+
+.social-links-inner {
+    display: flex;
+    width: 75%;
+}
+
+.social-links a {
+    flex: 1;
+    text-align: center;
+}
+
+.social-links img {
+    width: 24px;
+}
+
+.about-right h1 {
+    border-bottom: 2px solid lightgrey;
+    padding-bottom: 15px;
+    margin-bottom: 0;
+}
+
+.about-right h3 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.about-right p {
+    padding-top: 15px;
+    margin: 0;
+    line-height: 24px;
+}
+
+.exp-icon {
+    width: 96px;
+    height: 96px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.exp-list {
+    margin: 0;
+    padding-left: 15px;
+    list-style: none;
+}
+
+.exp-list li {
+    margin-bottom: 10px;
+    line-height: 24px;
+}
+
+.resume-download-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.resume-download-container {
+    margin-top: 40px;
+}
+
+.resume-download-container a {
+    height: 50px;
+    line-height: 50px;
+    background-color: rgb(33, 37, 41);
+    color: rgb(252, 188, 29);
+    text-decoration: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 15px;
+    font-weight: bolder;
+    box-shadow: 2px 2px 2px grey;
+    font-size: 18px;
+    transition: opacity 150ms;
+}
+
+.resume-download-container a:hover {
+    opacity: 0.8;
+}
+
+.resume-download-container a:active {
+    opacity: 0.6;
+}

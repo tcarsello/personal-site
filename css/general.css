@@ -4,6 +4,7 @@ body {
     width: 100%;
     height: 100%;
     font-family: Roboto, Airal;
+    color: rgb(33, 37, 41);
 }
 
 body {
@@ -35,4 +36,9 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
 }
