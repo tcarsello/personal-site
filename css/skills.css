@@ -1,0 +1,41 @@
+#skills .content-card {
+    padding-top: 30px;
+}
+
+.skills-heading {
+    text-align: center;
+    color:rgba(33, 37, 41, 1.0);
+    font-size: 30px;
+}
+
+.skill-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 5px;
+    justify-content: left;
+}
+
+.skill-list li {
+    flex: 1;
+    min-width: 150px;
+    margin: 5px;
+    box-sizing: border-box;
+    background-color: rgba(33, 37, 41, 0.8);
+    border-radius: 7px;
+    padding: 10px;
+    transition: opacity 150ms;
+}
+
+.skill-list li:hover {
+    opacity: 0.9;
+}
+
+.skill-list li h4 {
+    text-align: center;
+    font-size: 16px;
+    color: rgb(252, 188, 29);
+    margin: 0;
+}

@@ -121,11 +121,12 @@
 .resume-download-container a {
     height: 50px;
     line-height: 50px;
-    background-color: rgb(33, 37, 41);
-    color: rgb(252, 188, 29);
+    color: rgba(33, 37, 41, 1.0);
+    background-color: rgb(252, 188, 29);
     text-decoration: none;
     padding-left: 50px;
     padding-right: 50px;
+    border: 2px solid rgba(33, 37, 41, 1.0);
     border-radius: 15px;
     font-weight: bolder;
     box-shadow: 2px 2px 2px grey;
