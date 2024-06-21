@@ -1,0 +1,38 @@
+html,
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Roboto, Airal;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.page-container {
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: lightgrey;
+}
+
+.content-container {
+    width: 60%;
+    max-width: 1500px;
+    min-width: 750px;
+}
+
+.content-card {
+    background-color: white;
+    border-radius: 15px;
+    padding: 25px;
+    margin-top: 15px;
+}
+
+.content-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
