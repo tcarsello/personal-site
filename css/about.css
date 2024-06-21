@@ -2,6 +2,10 @@
     margin-top: 60px;
 }
 
+#about .content-card {
+    padding-top: 20px;
+}
+
 .about-left {
     width: 25%;
     min-width: 200px;
@@ -76,7 +80,7 @@
 .about-right h1 {
     border-bottom: 2px solid lightgrey;
     padding-bottom: 15px;
-    margin-bottom: 0;
+    margin: 0;
 }
 
 .about-right h3 {
