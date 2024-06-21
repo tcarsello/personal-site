@@ -26,8 +26,14 @@ body {
 .content-card {
     background-color: white;
     border-radius: 15px;
-    padding: 25px;
     margin-top: 15px;
+}
+
+.content-card-margin {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 75px;
+    margin-right: 75px;
 }
 
 .content-section {
