@@ -16,7 +16,7 @@
 
 .about-right {
     flex: 1;
-    margin-left: 35px;
+    margin-left: 55px;
 }
 
 .profile-pic {
@@ -121,18 +121,18 @@
 }
 
 .resume-download-container a {
-    height: 50px;
-    line-height: 50px;
+    height: 35px;
+    line-height: 35px;
     color: rgba(33, 37, 41, 1.0);
     background-color: rgb(252, 188, 29);
     text-decoration: none;
     padding-left: 50px;
     padding-right: 50px;
-    border: 2px solid rgba(33, 37, 41, 1.0);
+    border: 1px solid rgba(33, 37, 41, 1.0);
     border-radius: 15px;
     font-weight: bolder;
-    box-shadow: 2px 2px 2px grey;
-    font-size: 18px;
+    box-shadow: 2px 2px 2px lightgrey;
+    font-size: 16px;
     transition: opacity 150ms;
 }
 
