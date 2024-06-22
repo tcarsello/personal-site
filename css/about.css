@@ -79,7 +79,7 @@
 
 .about-right h1 {
     border-bottom: 2px solid lightgrey;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     margin: 0;
 }
 
@@ -106,7 +106,7 @@
 }
 
 .exp-list li {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     line-height: 24px;
 }
 
@@ -126,8 +126,8 @@
     color: rgba(33, 37, 41, 1.0);
     background-color: rgb(252, 188, 29);
     text-decoration: none;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
     border: 1px solid rgba(33, 37, 41, 1.0);
     border-radius: 15px;
     font-weight: bolder;

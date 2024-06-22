@@ -1,11 +1,14 @@
 #skills .content-card {
     padding-top: 30px;
+    padding-bottom: 20px;
     background-color: white;
 }
 
 .skills-heading {
     text-align: center;
     color: rgba(33, 37, 41, 1.0);
+    border-bottom: 2px solid lightgrey;
+    padding-bottom: 10px;
 }
 
 .skill-list {
@@ -23,7 +26,7 @@
     min-width: 140px;
     margin: 5px;
     box-sizing: border-box;
-    background-color: rgba(33, 37, 41, 0.8);
+    background-color: rgb(252, 188, 29, 0.6);
     border-radius: 7px;
     padding: 7px;
     transition: opacity 150ms;
@@ -31,7 +34,8 @@
 
 .skill-type-div h3 {
     color: rgba(33, 37, 41, 1.0);
-    margin-bottom: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .skill-list li:hover {
@@ -41,6 +45,6 @@
 .skill-list li h4 {
     text-align: center;
     font-size: 16px;
-    color: rgba(252, 189, 29, 1);
+    color: rgba(33, 37, 41, 1.0);
     margin: 0;
 }
