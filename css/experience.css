@@ -1,5 +1,7 @@
 #experience h1 {
     text-align: center;
+    border-bottom: 2px solid lightgrey;
+    padding-bottom: 10px;
 }
 
 #experience .content-card {
