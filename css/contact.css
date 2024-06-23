@@ -1,0 +1,51 @@
+#contact {
+    background-color: rgb(33, 37, 41);
+    margin-top: 15px;
+    padding-top: 25px;
+    color: white;
+}
+
+#contact .content-card-margin {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact p {
+    text-align: center;
+}
+
+#contact h1 {
+    text-align: center;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.contact-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.contact-table th, td {
+    width: 33.33%;
+    text-align: center;
+}
+
+.contact-table th {
+    color: rgb(252, 188, 29);
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.contact-table a {
+    color: white;
+    text-decoration: underline;
+    transition: opacity 150ms;
+}
+
+.contact-table a:hover {
+    opacity: 0.8;
+    text-decoration: none;
+}
