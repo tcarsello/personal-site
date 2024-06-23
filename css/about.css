@@ -128,7 +128,7 @@
     text-decoration: none;
     padding-left: 40px;
     padding-right: 40px;
-    border: 1px solid rgba(33, 37, 41, 1.0);
+    /*border: 1px solid rgba(33, 37, 41, 1.0);*/
     border-radius: 15px;
     font-weight: bolder;
     box-shadow: 2px 2px 2px lightgrey;
