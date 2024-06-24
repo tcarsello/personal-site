@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="css/skills.css">
         <link rel="stylesheet" href="css/experience.css">
         <link rel="stylesheet" href="css/contact.css">
+        <link rel="stylesheet" href="css/projects.css">
 
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto">
 
@@ -53,13 +54,13 @@
                                     </table>
                                     <div class="social-links">
                                         <div class="social-links-inner">
-                                            <a href="https://www.linkedin.com/in/tom-carsello-63015b21b"><img src="artifacts/linkedin.webp"></a>
-                                            <a href="https://github.com/tcarsello/"><img src="artifacts/github.png"></a>
+                                            <a target="_blank" href="https://www.linkedin.com/in/tom-carsello-63015b21b"><img src="artifacts/linkedin.webp"></a>
+                                            <a target="_blank" href="https://github.com/tcarsello/"><img src="artifacts/github.png"></a>
                                             <a href="mailto:tkcarsello@gmail.com"><img src="artifacts/email.webp"></a>
                                         </div>
                                     </div>
                                     <div class="resume-download-container">
-                                            <a href="content/Carsello_Resume.pdf">Resume (PDF)</a>
+                                            <a target="_blank" href="content/Carsello_Resume.pdf">Resume (PDF)</a>
                                     </div>
                                 </div>
                             <div class="about-right">
@@ -261,7 +262,76 @@
             <section id="projects" class="content-section">
                 <div class="content-container content-card">
                     <div class="content-card-margin">
-                        Projects Section
+                        <h1 class="skills-heading">Projects</h1>
+                        <div class="projects-container">
+                            <div class="project">
+                                <div class="project-header">
+                                    <h3>Bucket Tasks</h3>
+                                    <a class="project-link" target="_blank" href="https://github.com/tcarsello/bucket-tasks">GitHub</a>
+                                </div>
+                                <p>Bucket Tasks is a <span>full-stack web application</span> that helps users organize their upcoming tasks into segregated "buckets" for convenience. These buckets each server as To-Do lists, and Bucket Tasks provides an effective UI for handling tasks.</p>
+                                <p>This project features a <span>REST API</span> implemented in <span>Express.JS</span> as well as <span>secure user authentication</span> and <span>proected API routes</span> through <span>JWT</span>.</p>
+                                <p>The UI is implemened in <span>React.JS</span> and the backend functionality is written in <span>Express.JS</span> running on <span>Node.JS</span>. The <span>MySQL</span> server boasts a schema that is in <span>Boyce-Codd Normal Form</span>.</p>
+                                <p>The web app runs in <span>Docker Containers</span> in the cloud on <span>AWS EC2 instances</span>.</p>
+                                <h3>Tech Stack</h3>
+                                <ul class="project-stack">
+                                    <li>React.JS</li>
+                                    <li>Node.JS</li>
+                                    <li>Express.JS</li>
+                                    <li>MySQL</li>
+                                    <li>Docker</li>
+                                    <li>AWS EC2</li>
+                                </ul>
+                            </div>
+                            <div class="project">
+                                <div class="project-header">
+                                    <h3>ManageHelp</h3>
+                                    <a class="project-link" target="_blank" href="https://github.com/tcarsello/cs307-group24">GitHub</a>
+                                </div>
+                                <p>ManageHelp is a <span>full stack web application</span> serving as a one-stop-shop for small businesses such as Restaurants and Grocery Stores to manage the scheduling of employee shifts.</p>
+                                <p>The application consists of a classic <span>MERN</span> tech-stack. A <span>REST API</span> is implemented through <span>Express.JS</span> on top of <span>Node.JS</span> to manage requests and interact with the <span>MongoDB</span> document database.</p>
+                                <p>Users can belong to one of three categories within an organization: Owner, Manager, or Employee.</p>
+                                <p>The fronend of the application is build on <span>React.JS</span> and provides users with varying functions based upon their privledge level within their organization.</p>
+                                <h3>Tech Stack</h3>
+                                <ul class="project-stack">
+                                    <li>React.JS</li>
+                                    <li>Node.JS</li>
+                                    <li>Express.JS</li>
+                                    <li>MongoDB</li>
+                                    <li>CSS</li>
+                                </ul>
+                            </div>
+                            <div class="project">
+                                <div class="project-header">
+                                    <h3>Personal Website</h3>
+                                    <a class="project-link" target="_blank" href="https://github.com/tcarsello/personal-site">GitHub</a>
+                                </div>
+                                <p>You are here! Static webpage writen in plain <span>HTML</span>, <span>CSS</span>, and <span>JavaScript</span>. This site is deployed through Amazon Web Services. Static content is stored in <span>AWS S3</span> buckets, and delivered through <span>AWS's CloudFront CDN</span>.</p>
+                                <p>This project was a CSS learning experience. Website elements are designed to increase legibility while maintaining and visually appealing design.</p>
+                                <h3>Tech Stack</h3>
+                                <ul class="project-stack">
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JS</li>
+                                    <li>AWS S3</li>
+                                    <li>AWS CloudFront</li>
+                                </ul>
+                            </div>
+                            <div class="project">
+                                <div class="project-header">
+                                    <h3>Chess Live</h3>
+                                    <a class="project-link" target="_blank" href="https://github.com/tcarsello/ChessGame">GitHub</a>
+                                </div>
+                                <p>Live Chess is a <span>client-server</span> application writien in <span>Java</span> that allows players to engage in real-time games on Chess over a network connection.</p>
+                                <p>The server is a <span>multi-threaded</span> application managing <span>TCP Socket</span> connections to transact real-time game state updates. The server manages the game state and validates moves according to the standard rules of chess.</p>
+                                <p>The client is a GUI application built on the <span>Java Swing</span> framework allowing players to connect to a server instance and play live games.</p>
+                                <h3>Tech Stack</h3>
+                                <ul class="project-stack">
+                                    <li>Java</li>
+                                    <li>TCP Sockets</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>

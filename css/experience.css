@@ -4,8 +4,11 @@
     padding-bottom: 10px;
 }
 
+
 #experience .content-card {
     padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: white;
 }
 
 .experience-block {
