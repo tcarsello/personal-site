@@ -1,0 +1,37 @@
+:root {
+  --bg-primary: #0d1117;
+  --bg-secondary: #161b22;
+  --bg-tertiary: #21262d;
+  --text-primary: #f0f6fc;
+  --text-secondary: #e6edf3;
+  --text-tertiary: #9198a1;
+  --accent-orange: #ff8c42;
+  --accent-mint: #26d0ce;
+  --accent-orange-hover: #ffa366;
+  --accent-mint-hover: #4dd0e1;
+  --border-color: #30363d;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+main {
+  flex: 1;
+}
+
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 2rem 1rem;
+  }
+}
