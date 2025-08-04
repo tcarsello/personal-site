@@ -3,7 +3,7 @@ import './About.css'
 const About = () => {
   const skills = {
     'Languages': 'Java, Python, JavaScript, C#, C++, C, SQL',
-    'Frameworks & Tools': 'React.js, Node.js, Express.js, MongoDB, Git, Docker',
+    'Frameworks & Tools': 'Spring Boot, React.js, Node.js, Express.js, MongoDB, Git, Docker',
     'Cloud & Databases': 'AWS (S3, RDS, ECS, CloudFront), PostgreSQL, MongoDB',
     'Expertise': 'Object-Oriented Design, Database Normalization, Cloud-Native Design, Data Structures & Algorithms'
   }
@@ -14,21 +14,21 @@ const About = () => {
       <div className="about-content">
         <div className="about-text">
           <p>
-            I'm a Software Developer at Crowe LLP with a strong foundation in computer science from Purdue University. 
-            I specialize in designing and implementing technical solutions using object-oriented principles and cloud-native architectures.
+            I'm a Software Developer at Crowe with a strong foundation in computer science from Purdue University. 
+            I love to explore new technologies and build projects from the ground up, solving real-world problems.
           </p>
           <p>
-            With experience in full-stack development, cloud computing, and data analytics, I enjoy solving complex problems 
-            and creating efficient solutions that enhance business workflows.
+            With experience in full-stack development, cloud computing, and data analytics, I strive every day to
+            build practical technical solutions that suit specific business needs. 
           </p>
         </div>
         <div className="education-skills">
           <div className="education">
             <h3>Education</h3>
             <h4>Purdue University</h4>
-            <p>B.S. Computer Science (GPA: 3.9/4.0)</p>
-            <p>Minors: Mathematics & Business Management</p>
-            <p>Early graduation in 3.5 years</p>
+            <p>B.S. Computer Science</p>
+            <p>Minors: Math, Business Management</p>
+            <p>GPA: 3.9 / 4.0</p>
           </div>
           <div className="skills">
             <h3>Technical Skills</h3>

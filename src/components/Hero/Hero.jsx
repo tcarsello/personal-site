@@ -9,8 +9,8 @@ const Hero = () => {
         </div>
         <div className="hero-text">
           <h2>Thomas Carsello</h2>
-          <p className="hero-title">Software Developer</p>
-          <p className="hero-tagline">Building scalable cloud solutions and seeking new software engineering opportunities</p>
+          <p className="hero-title">Software Developer @ Crowe | Chicago, IL</p>
+          <p className="hero-tagline">Engineering cloud technologies, and seeking software opportunities</p>
         </div>
       </div>
       <div className="hero-cta">
